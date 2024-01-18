@@ -1,0 +1,290 @@
+/*
+    Prélude au code :
+    Tout comme sur la page HTML, il y aura beaucoup de commentaire, la plupart
+    expliqueront uniquement dans les grandes lignes se que font chaque ligne de code
+
+    J'espere que vous n'avez pas mal a la tête Catherine ?
+*/
+
+/* CETTE PARTIE CONTIENT TOUTES LES MODIFICATIONS POUR LE BLOCK BODY */
+body{
+    /* 
+    Police d'écriture de body 
+    Couleur du texte dans body 
+    Couleur du fond de body
+    Marge intérieur du block body
+    Marge extérieur du block body
+    */
+    font: normal 90% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
+    color: #444;
+    background:#f4f4f4;
+    padding:0;
+    margin:0;
+}
+/* CETTE PARTIE CONTIENT TOUTES LES MODIFICATIONS POUR LE BLOCK HEADER */
+header{
+    /* 
+    Couleur des textes dans le header HTML 
+    Couleur du fond dans le header HTML
+    Bordure du bas du block header HTML
+    Taille de la marge intérieur du block header de la page HTML
+    Taille de la marge extérieur du block header de la page HTML
+    */
+    color: #ee662a;
+    background:white;
+    border-bottom: 2px dotted #ccc;
+    margin:0;
+    padding:0.8em;
+}
+header h1{
+    /* 
+    Taille des titres h1 dans header
+    "Grosseur" des titres h1 dans header
+    Taille de la marge intérieur des titres h1 dans header
+    */
+    font-size: 4em;
+    font-weight:normal;
+    margin: 0;
+}
+header h2{
+    /* 
+    Taille des titres h2 dans header
+    "Grosseur" des titres h2 dans header
+    Taille de la marge intérieur des titres h2 dans header
+    Couleur des titres h2 dans header
+    */
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 2.5em 12em;
+    color: #e74b25;
+}
+header img{
+    /* 
+    Largeur (car l'image de base n'est pas procuré)
+    Hauteur (same)
+    Collage de l'image dans le header sur la gauche
+    Taille marge intérieur
+    */
+    width: 13em;
+    height: 10em;
+    float:left;
+    margin-right: 3em;
+}
+/* CETTE PARTIE CONTIENT TOUT LE MENU DE NAVIGATION */
+nav{
+    /* Couleur du fond du menu
+    Taille du menu de navigation
+    */
+    background-color: #f2662a;
+    height: 35px;
+}
+nav li{
+    /* Modifications des éléments du menu nav
+    Callement du menu vers la
+    Largeur des éléments
+    Hauteur des éléments
+    Couleur du fond de la barre du menu nav
+    Alignement du texte au centre
+    Taille bordure gauche, couleur, caractéristique du block
+    Taille bordure droite, couleur, caractéristique du block
+    Centre le texte par rapport au extremité
+    La balise utilisé pour la liste d'éléments est une liste a point, suppression de ces points
+    */
+    float: left;
+    width: 140px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    line-height: 35px;
+    list-style: none;
+}
+nav li a{
+    /*
+    Le texte contenu dans les éléments et changé
+    Le texte n'a aucune décoration secondaire
+    X
+    */
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+nav li a:hover{
+    /* 
+    Cette modification est dynamique, la couleur du fond passe en rouge quand la souris passe dessus
+    Et le texte passe en blanc
+    */
+    background-color: #f0462b;
+    color: #ebebea;
+}
+/* CETTE PARTIE CONTIENT LE CONTENU SECONDAIRE DE LA PAGE WEB */
+#main_aside{
+    /*
+    Marge haute
+    Collage du aside a gauche
+    Largeur du aside
+    Couleur de fond du block aside
+    Marge
+    Couleur texte
+    */
+    margin-top: 15px;
+    float: left;
+    width: 300px;
+    background-color: #378059;
+    padding: 7px;
+    color: white;
+}
+#main_aside p{
+    margin: 1em;
+}
+/* CETTE PARTIE CONTIENT TOUT LE CONTENU PRINCIPALE DE LA PAGE WEB */
+section{
+    /* 
+    Largeur du block section
+    Collage sur la gauche du block
+    */
+    width: 600px;
+    float: left;
+}
+section p, h1, h2{
+    /* 
+    Taille de la bordure interieur gauche pour paragraphe, h1, h2
+    Taille de la bordure interieur droite pour paragraphe, h1, h2
+    */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section h2{
+    /* Taille de la bordure interieur haute pour h2*/
+    margin-top: 15px;
+}
+/* CETTE PARTIE CONTIENT L'ARTICLE DE LA SECTION "UNE SOUS PARTIE" */
+article header{
+    /*
+    Pas de fond
+    Hauteur
+    Bordure de l'article basse
+    Marge
+    */
+    background: none;
+    height: auto;
+    border-bottom: none;
+    margin: 0.6em;
+}
+article header h2{
+    /*
+    Couleur
+    Marge
+    */
+    color:black;
+    margin: 0;
+}
+article header p{
+    /*
+    Couleur
+    Marge
+    */
+    color: gray;
+    margin: 0;
+}
+article footer{
+    /*
+    Pas de fond
+    Hauteur
+    Bordure
+    */
+    background: none;
+    height: auto;
+    border: none;
+}
+article footer p{
+    /*
+    Taille du texte
+    Marge
+    */
+    font-size: 10px;
+    margin: 2em;
+}
+/* CETTE PARTIE CONTIENT L'ASIDE DE L'ARTICLE */
+#article_aside{
+    /*
+    Callage
+    Largeur
+    Couleur fond
+    Marge exterieur
+    Marge intérieur
+    */
+    float: left;
+    width: 12em;
+    background: #F9A890;
+    padding: 10px;
+    margin: 0 10px;
+}
+#article_aside h3{
+    /*
+    Couleur
+    Marge
+    */
+    color:#378059;
+    margin: 0;
+}
+#article_aside p{
+    /*Couleur*/
+    margin: 0;
+}
+/* CETTE SECTION CONTIENT L'IMAGE CONTENU DANS L'ARTICLE */
+figure{
+    /* 
+    Colle l'image sur la droite
+    Bordure en ligne solide de couleur grise
+    Taille de marge exterieur
+    Taille de marge intérieur
+    */
+    float: right;
+    border: 1px solid gray;
+    padding: 0.25em;
+    margin: 0 1.5em 1.5em 0;
+}
+figure img{
+    /* Ajout par mes soins pour redimensioner l'image 
+    Largeur
+    Hauteur
+    */
+    width: 18em;
+    height: 10em;
+}
+figcaption{
+    /*
+    Le sous-titre est callé au centre
+    Police
+    */
+    text-align: center;
+    font: italic 0.9 Georgia, "Times New Roman", serif;
+}
+/* CETTE SECTION CONTIENT LE PIED DE PAGE HTML */
+footer{
+    /* 
+    X
+    Largeur
+    Marge interieur du footer HTML
+    Couleur de fond + image et collé sur la gauche
+    Hauteur
+    Bordure exterieur haute
+    Bordure haute, couleur, ligne solide, taille de la ligne
+    */
+    clear: both;
+    width: auto;
+    background: #f2f2f2 url(img/white_gray_foot.jpg) left;
+    height: 118px;
+    padding-top: 10px;
+    border-top: #e2e2e2 solid 2px;
+}
+footer p{
+    /*
+    Taille texte
+    Bordure gauche texte
+    */
+    font-size: 10px;
+    margin-left: 10px;
+}
