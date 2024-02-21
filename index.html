@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!--Liaison de style.css au document index.html-->
+    <link rel="stylesheet" href="css/style.css"> <!--Liaison de style.css au document index.html-->
     <title>Exercice</title>
 </head>
 <!--Le corps de page autrement dit "body" contient tout ce que verra les usagers du site-->
@@ -36,22 +36,19 @@
     <aside id="main_aside">
         <h3>Recommandations</h3>
 <!--J'ai apris que le texte "Lorem" est généré aléatoirement, je pensais que c'était a 100% le même-->
-        <p>Donec libero eros, elementum vitae lacinia bibendum, malesuada et est. Pellentesque elit odio, lobortis non commodo quis, 
-            varius sed justo. Morbi aliquam purus eu leo bibendum et aliquet eros rhoncus. Ut feugiat porttitor magna, in mollis turpis 
-            ultricies non. Maecenas at tortor eros, et feugiat dolor. Pellentesque tincidunt dignissim commodo. Proin mi tortor, tincidunt 
-            sit amet molis non, rhoncus ut est. Aliquam augue odio, lacinia sit amet hendrerit vel, bibendum eu arcu. Etiam dui leo, 
-            feugiat a molestie vel, tristique a ante.</p>
-        <p>Quisque fermentum scelerisque lacus eget sollicitudin. Nunc feugiat molestie odio vel accumsan. Etiam non est tortor. 
-            Morbi arcu odio, lacinia vitae aliquet in, vulputate vel ante. Curabitur mollis sapien non nunc semper sit amet 
-            ultricies nibh placerat. Cras facilisis varius consectetur. Phasellus nibh odio, luctus auctor mattis vitae, aliquam et arcu.</p>
+        <p>
+            Donec libero eros, elementum vitae lacinia bibendum, malesuada et est. Pellentesque elit odio, lobortis non commodo quis, varius sed justo. Morbi aliquam purus eu leo bibendum et aliquet eros rhoncus. Ut feugiat porttitor magna, in mollis turpis ultricies non. Maecenas at tortor eros, et feugiat dolor. Pellentesque tincidunt dignissim commodo. Proin mi tortor, tincidunt sit amet molis non, rhoncus ut est. Aliquam augue odio, lacinia sit amet hendrerit vel, bibendum eu arcu. Etiam dui leo, feugiat a molestie vel, tristique a ante.
+        </p>
+        <p>
+            Quisque fermentum scelerisque lacus eget sollicitudin. Nunc feugiat molestie odio vel accumsan. Etiam non est tortor. Morbi arcu odio, lacinia vitae aliquet in, vulputate vel ante. Curabitur mollis sapien non nunc semper sit amet ultricies nibh placerat. Cras facilisis varius consectetur. Phasellus nibh odio, luctus auctor mattis vitae, aliquam et arcu.
+        </p>
     </aside>
 <!--Cette partie contient le contenu principale de la page HTML-->
     <section>
         <h2>Mission du HTML5</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisque vehicula, enim non mattis lobortis, libero est hendrerit erat, 
-            a tincidunt lacus sapien sit amet mi. Nulla fringilla lobortis porttitor. Mauris rutrum neque ac leo vehicula vel fringilla 
-            nisi censectetur. Suspendisse potenti. In libero metus, scelerisque et sodales et, convallis nec elit. Aenean est lectus, 
-            adipiscing nec feugiat sed, consequat ut nunc. Ut id felis vel purus venenatis bibendum.</p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisque vehicula, enim non mattis lobortis, libero est hendrerit erat, a tincidunt lacus sapien sit amet mi. Nulla fringilla lobortis porttitor. Mauris rutrum neque ac leo vehicula vel fringilla nisi censectetur. Suspendisse potenti. In libero metus, scelerisque et sodales et, convallis nec elit. Aenean est lectus, adipiscing nec feugiat sed, consequat ut nunc. Ut id felis vel purus venenatis bibendum.
+        </p>
 <!--Cette partie contient la suite du contenu principale, un article-->
         <article>
 <!--Un article peut contenir un header, un footer, un aside, un peu comme une mini page HTML-->
@@ -64,24 +61,25 @@
                     <img src="img/les_contenus_html.jpg" alt="Les contenus HTML5">
                     <figcaption>Les différents contenus HTML5</figcaption>
                 </figure>
-                <p>Donec libero eros, elementum vitae lacinia bibendum, malesuada et est. Pellentesque elit odio, lobortis non commodo quis, 
-                    varius sed justo. Morbi aliquam purus eu leo bibendum et aliquet eros rhoncus. Ut feugiat porttitor magna, in mollis 
-                    turpis ultricies non. Maecenas at tortor eros, et feugiat dolor. Pellentesque tincidunt sit amet mollis non, rhoncus ut est. 
-                    Aliquam augue odio, lacinia sit amet hendrerit vel, bibendum eu arcu. Etiam dui leo, feugiat a molestie vel, 
-                    tristique a ante.</p>
+                <p>
+                    Donec libero eros, elementum vitae lacinia bibendum, malesuada et est. Pellentesque elit odio, lobortis non commodo quis, varius sed justo. Morbi aliquam purus eu leo bibendum et aliquet eros rhoncus. Ut feugiat porttitor magna, in mollis turpis ultricies non. Maecenas at tortor eros, et feugiat dolor. Pellentesque tincidunt sit amet mollis non, rhoncus ut est. Aliquam augue odio, lacinia sit amet hendrerit vel, bibendum eu arcu. Etiam dui leo, feugiat a molestie vel, tristique a ante.
+                </p>
 <!--Comme dit précédemment un article peut contenir un aside-->
                 <aside id="article_aside">
                     <h3>Plus d'infos ?</h3>
-                    <p>Les dernières recommandations du W3C. <a href="#">Lien</a></p>
+                    <p>
+                        Les dernières recommandations du W3C. 
+                        <a href="#">Lien</a>
+                    </p>
                 </aside>
 <!--Dans ce paragraphe je surligne une partie du texte, a voir pour plus de renseignement pour différents style-->
-                <p>Fusce fermentum congue velit ac lobortis. 
-                    <mark>Donec id erat a mauris sagittis dignissim id ut lorem.</mark> 
-                    Suspendisse dignissim, massa sit amet vehicula mattis, nisi mauris rhoncus felis, ut sodales odio turpis a metus. 
-                    Maecenas elementum semper enim. Quisque volutpat lectus at turpis porta eget volutpat arcu auctor. Sed egestas vehicula 
-                    ipsum, quis tristique nibh tristique eu. Vivamus non eros lectus, lobortis pharetra massa. Vivamus et arcu nulla. 
-                    Nullam et orci libero, a scelerisque augue. Suspendisse vestibulum cursus malesuada. Vivamus varius mauris vitae 
-                    lorem auctor placerat. Vivamus dignissim suscipit pharetra. Proin et nulla elit.</p>
+                <p>
+                    Fusce fermentum congue velit ac lobortis. 
+                    <mark>
+                        Donec id erat a mauris sagittis dignissim id ut lorem.
+                    </mark> 
+                    Suspendisse dignissim, massa sit amet vehicula mattis, nisi mauris rhoncus felis, ut sodales odio turpis a metus. Maecenas elementum semper enim. Quisque volutpat lectus at turpis porta eget volutpat arcu auctor. Sed egestas vehicula ipsum, quis tristique nibh tristique eu. Vivamus non eros lectus, lobortis pharetra massa. Vivamus et arcu nulla. Nullam et orci libero, a scelerisque augue. Suspendisse vestibulum cursus malesuada. Vivamus varius mauris vitae lorem auctor placerat. Vivamus dignissim suscipit pharetra. Proin et nulla elit.
+                </p>
             <footer>
 <!--Et ici ce trouve le footer de l'article
 Dans l'exercice il est demandé de faire le logo copyright mais n'est pas présent sur la page final voici cependant le code : &#xa9-->
@@ -93,8 +91,10 @@ Dans l'exercice il est demandé de faire le logo copyright mais n'est pas prése
     <footer>
         <p>Copyright AFCI NEWSOFT 2012</p>
 <!--J'utilise des <br> pour faire des sauts de lignes afin d'être le plus conforme possible a la mise en page-->
-        <p>En vous enregistant ou en utilisant ce site, vous <br>acceptez notre contrat utilisateur et notre charte <br>de Respect de la
-            vie privée.</p>
+        <p>En vous enregistant ou en utilisant ce site, vous <br>
+            acceptez notre contrat utilisateur et notre charte <br>
+            de Respect de la vie privée.
+        </p>
     </footer>
 </body>
 <!--Le code HTML s'arrette juste en dessous-->

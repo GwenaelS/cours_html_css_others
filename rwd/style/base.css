@@ -1,0 +1,46 @@
+html>*{
+    height: auto;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    background-color: beige;
+    /* border: 2px solid green; */
+}
+header{
+    width: 100%;
+    background-color: red;
+    /* border: 2px solid black; */
+}
+nav{
+    width: 100%;
+    background-color: brown;
+    /* border: 2px solid black; */
+}
+aside{
+    width: 30%;
+    color: red;
+    background-color: aqua;
+    /* border: 2px solid black; */
+}
+section{
+    color: white;
+    width: 70%;
+    background-color: blue;
+    /* border: 2px solid black; */
+}
+article{
+    height: auto;
+    background-color: aquamarine;
+    /* border: 2px solid black; */
+}
+article>aside{
+    width: 20%;
+}
+footer{
+    width: 100%;
+    background-color: blueviolet;
+    /* border: 2px solid white; */
+}
