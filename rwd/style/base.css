@@ -44,3 +44,16 @@ footer{
     background-color: blueviolet;
     /* border: 2px solid white; */
 }
+
+
+@media screen and (max-width : 640px){
+    .test{
+        background-color: brown;
+    }
+}
+/*Cette propriété ne s'applique que si l'écran fait moins de 640px de large*/
+@media screen and (max-width : 640px){
+    .test{
+        color: yellow;
+    }
+}
